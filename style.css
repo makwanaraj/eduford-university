@@ -138,12 +138,12 @@ nav .fa{
     padding-top:50px;
 }
 
-.course h1, .campus h1{
+.course h1, .campus h1, .facilities h1{
     font-size: 36px;
     font-weight: 600;
 }
 
-.course p, .campus p{
+.course p, .campus p, .facilities p{
     font-size: 13px;
     color:#777;
     font-weight: 300;
@@ -202,6 +202,11 @@ box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
     overflow: hidden; 
 }
 
+.campus-col img, .facilities img{
+    width: 100%;
+    display: block;
+}
+
 .layer{
     background:transparent;
     height: 100%;
@@ -236,3 +241,31 @@ box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 } 
 
 /* campus stling end */
+
+/* facilities */
+.facilities{
+    width: 80%;
+    padding-top: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.facilities-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.facilities img{
+    border-radius: 10px;
+}
+
+.facilities h3{
+    margin: 15px 0px;
+}
+
+.facilities p{
+    padding: 0;
+}
+/* end facilities */
