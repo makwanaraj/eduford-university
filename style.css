@@ -138,12 +138,12 @@ nav .fa{
     padding-top:50px;
 }
 
-.course h1, .campus h1, .facilities h1{
+.course h1, .campus h1, .facilities h1, .testimonials h1{
     font-size: 36px;
     font-weight: 600;
 }
 
-.course p, .campus p, .facilities p{
+.course p, .campus p, .facilities p, .testimonials p{
     font-size: 13px;
     color:#777;
     font-weight: 300;
@@ -269,3 +269,37 @@ box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
     padding: 0;
 }
 /* end facilities */
+
+/* testimonials */
+.testimonials{
+    width: 80%;
+    padding-top: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+.testimonials-col{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background-color: #fff3f3;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+
+.testimonials-col img{
+    height: 40px ;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+
+.testimonials-col p{
+    padding: 0;
+}
+.testimonials-col h3{
+    margin-top: 15px;
+}
+/* end testimonials */
