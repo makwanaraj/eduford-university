@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Us | Eduford University</title>
+    <title>Contact | Eduford University</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -37,29 +37,63 @@
       </nav>
       <!-- End Navbar -->
 
-      <h2>About Us</h2>
+      <h2>Contact Us</h2>
     </section>
     <!-- End Banner -->
 
-    <!-- about us content -->
-    <section class="about-us">
+    <!-- contact us content -->
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d558.5394649862369!2d72.85869064401929!3d19.257247463952666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b0fb11a894fd%3A0x12cc86e9e7c2e8cd!2sMansarovar%20Housing%20Society%2C%20Rd%20Number%203%2C%20Jaya%20Nagar%2C%20Avdhut%20Nagar%2C%20Dahisar%20East%2C%20Mumbai%2C%20Maharashtra%20400068!5e0!3m2!1sen!2sin!4v1660568583992!5m2!1sen!2sin"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+    <!-- end contact us content -->
+
+    <section class="contact-us">
       <div class="row">
-        <div class="about-col">
-          <h2>We Are The World's Largest University</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda molestiae vero, illo modi quae facere possimus perferendis accusamus doloremque laborum ut mollitia animi nulla officia rem dolorem
-            repellendus hic? Hic.Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda molestiae vero, illo modi quae facere possimus perferendis accusamus doloremque laborum ut mollitia animi nulla officia rem dolorem
-            repellendus hic? Hic.
-          </p>
-          <a href="#" class="hero-btn red-btn">EXPLORE NOW</a>
+        <div class="contact-col">
+          <div>
+            <i class="fa fa-home" ></i>
+            <span>
+              <h5>XYZ Apartment, ABC Road, PQR Road,</h5>
+              <p>Mumabi, Maharashtra, India</p>
+            </span>
+         </div>
+
+         <div>
+          <i class="fa fa-phone" ></i>
+          <span>
+            <h5>+91 1234567890</h5>
+            <p>Monday To Friday, 10AM TO 5PM</p>
+          </span>
+       </div>
+
+       <div>
+        <i class="fa fa-envelope-o" ></i>
+        <span>
+          <h5>info@eduford.com</h5>
+          <p>Email us your query</p>
+        </span>
+     </div>
         </div>
-        <div class="about-col">
-          <img src="images/about.jpg" alt="about">
+        <div class="contact-col">
+
+          <form action="form-handler.php" method="post">
+            <input type="text" placeholder="Enter Your Name" required>
+            <input type="Email" placeholder="Enter Email Address" required>
+            <input type="text" placeholder="Enter Your Subject" required>
+            <textarea rows="8" placeholder="Message" required></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+          </form>
         </div>
       </div>
     </section>
-    <!-- end about us content -->
-
     <!-- footer -->
     <section class="footer">
       <h4>About Us</h4>

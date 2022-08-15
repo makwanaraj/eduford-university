@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog | Eduford University</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+  <!-- Banner -->
+  <section class="sub-header">
+    <!-- Navbar -->
+    <nav>
+      <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onClick="hidemenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="About.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="">BLOG</a></li>
+          <li><a href="">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onClick="showmenu()"></i>
+    </nav>
+    <!-- End Navbar -->
+
+    <h2>Our Certificate & Online Programs For 2022</h2>
+  </section>
+  <!-- End Banner -->
+
+  <!-- Blog content-->
+  <section class="blog-content">
+    <div class="row">
+      <div class="blog-left">
+        <img src="images/certificate.jpg" alt="" />
+        <h2>Our Certificate & Online Programs For 2022</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+          dignissimos doloribus atque? Ab provident odio reprehenderit ut
+          dicta voluptates. Debitis deleniti natus maiores laudantium rem
+          libero ut, quis sapiente voluptatum!</p><br />
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quod at eius, earum
+          quibusdam adipisci placeat aut recusandae vero dolorem Lorem ipsum dolor sit, amet consectetur adipisicing
+          elit. Quia animi impedit, et iste expedita temporibus dolorum dolores minima, voluptatibus facilis laborum
+          aspernatur, ipsum illum voluptatum asperiores. Tenetur repudiandae iusto ullam.</p><br />
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum debitis
+          soluta ullam optio impedit architecto sunt inventore molestias
+          mollitia excepturi, dolor odio, nobis autem eligendi. Lorem ipsum dolor, sit amet consectetur adipisicing
+          elit. Animi sed asperiores cum inventore unde ducimus
+          labore debitis ut voluptatibus libero, delectus reprehenderit quia? Accusamus possimus atque saepe eaque
+          distinctio iure maiores eius! Vero accusamus, nulla odio saepe dolore, officia suscipit commodi minima quae
+          earum similique, asperiores esse delectus nam inventore. Totam, deserunt adipisci voluptate sequi quibusdam
+          quos nisi magnam explicabo.</p><br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum magni corporis, et assumenda pariatur
+          cupiditate quas, suscipit voluptate esse sequi, inventore maiores rem itaque atque aliquid. Id sit provident
+          ea minima molestias perspiciatis totam ab eveniet quibusdam tenetur. Fuga consequuntur numquam illum quod
+          veritatis, corporis expedita totam minima unde, quaerat tempora deserunt maxime sunt ullam facilis maiores
+          molestiae quia, delectus quisquam enim ipsam voluptatibus asperiores recusandae? Velit dolorem itaque ea
+          dolorum debitis. Maiores aspernatur mollitia quae iste perspiciatis ullam vel odio consequatur eius soluta
+          voluptatem iusto, animi expedita voluptatum exercitationem ratione quod natus corrupti doloribus magnam
+          debitis in recusandae? Perspiciatis.</p>
+
+          <div class="comment-box">
+            <h3> Leave A Comment</h3>
+            <form action="" class="comment-form">
+              <input type="text" placeholder="Enter Name">
+              <input type="email" placeholder="Enter Email">
+              <textarea rows="5" placeholder="Your Comment"></textarea>
+              <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+          </div>
+      </div>
+      <div class="blog-right">
+        <h3>Post Categories</h3>
+        <div>
+          <span>Business Analytics</span>
+          <span>21</span>
+        </div>
+
+        <div>
+          <span>Computer</span>
+          <span>14</span>
+        </div>
+
+        <div>
+          <span>Auto CAD</span>
+          <span>19</span>
+        </div>
+
+        <div>
+          <span>Science</span>
+          <span>28</span>
+        </div>
+
+        <div>
+          <span>Data Science</span>
+          <span>5</span>
+        </div>
+
+        <div>
+          <span>Machine Learning</span>
+          <span>15</span>
+        </div>
+
+        <div>
+          <span>Hardware</span>
+          <span>8</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- end Blog content -->
+
+  <!-- footer -->
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
+      earum<br />
+      reprehenderit tempore praesentium laborum accusamus placeat eos, a<br />
+      dolorum rem id incidunt, modi cum provident! Omnis repellendus aliquid
+      doloribus ipsum.
+    </p>
+
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+
+    <p>Made with <i class="fa fa-heart-o"></i> by Raj Makwana</p>
+  </section>
+  <!-- end footer -->
+
+  <!-- Javascript -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showmenu() {
+      navLinks.style.right = "0";
+    }
+
+    function hidemenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+  <!-- End Javscript -->
+</body>
+
+</html>
