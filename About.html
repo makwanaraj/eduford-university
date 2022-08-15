@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us | Eduford University</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Banner -->
+    <section class="sub-header">
+      <!-- Navbar -->
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onClick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onClick="showmenu()"></i>
+      </nav>
+      <!-- End Navbar -->
+
+      <h2>About Us</h2>
+    </section>
+    <!-- End Banner -->
+
+    <!-- about us content -->
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h2>We Are The World's Largest University</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda molestiae vero, illo modi quae facere possimus perferendis accusamus doloremque laborum ut mollitia animi nulla officia rem dolorem
+            repellendus hic? Hic.Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda molestiae vero, illo modi quae facere possimus perferendis accusamus doloremque laborum ut mollitia animi nulla officia rem dolorem
+            repellendus hic? Hic.
+          </p>
+          <a href="#" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+          <img src="images/about.jpg" alt="about">
+        </div>
+      </div>
+    </section>
+    <!-- end about us content -->
+
+    <!-- footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
+        earum<br />
+        reprehenderit tempore praesentium laborum accusamus placeat eos, a<br />
+        dolorum rem id incidunt, modi cum provident! Omnis repellendus aliquid
+        doloribus ipsum.
+      </p>
+
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+
+      <p>Made with <i class="fa fa-heart-o"></i> by Raj Makwana</p>
+    </section>
+    <!-- end footer -->
+
+    <!-- Javascript -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showmenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hidemenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+    <!-- End Javscript -->
+  </body>
+</html>
